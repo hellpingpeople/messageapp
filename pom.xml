@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.apache.camel</groupId>
-    <artifactId>message-application</artifactId>
+    <artifactId>messageapp</artifactId>
     <version>0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
@@ -39,6 +39,7 @@
                 <!-- the file must be in the classpath -->
                 <configuration>
                     <applicationContextUri>application-context.xml</applicationContextUri>
+
                 </configuration>
             </plugin>
             <plugin>

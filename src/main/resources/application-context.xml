@@ -8,7 +8,8 @@
     <camelContext xmlns="http://camel.apache.org/schema/spring">
         <route>
             <from uri="file://home/alex/mnt/apache-servicemix-6.1.3/camel/outbox/" />
-            <to uri="file://home/alex/mnt/apache-servicemix-6.1.3/camel/inbox/" />
+            <to uri="file://home/alex/mnt/apache-servicemix-6.1.3/camel/in
+            box/" />
         </route>
     </camelContext>
 
