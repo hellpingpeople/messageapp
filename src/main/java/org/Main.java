@@ -18,9 +18,14 @@ public class Main {
             }
         });
         context.start();
-        System.out.println("Нажми enter...");
+        System.out.println("По нажатию клавиши enter произойдет формирование XML-файла и отправка " +'\n'+
+                "в директорию ../apache-servicemix-6.1.3/camel/outbox, " + '\n'+
+                "далее средствами приложения отправится в ../apache-servicemix-6.1.3/camel/inbox" + '\n'+
+                "При запущенном сервере apache-servicemix-6.1.3 c установленным Apache Сamel " + '\n'+
+                "содержимое переместится в папку ../apache-servicemix-6.1.3/camel/outbox");
         Scanner keyboard = new Scanner(System.in);
         keyboard.nextLine();
+        System.out.println("Таким образом, осуществлена простейшая интеграция с сервисом Apache Service Mix ");
         context.stop();
     }
 }
